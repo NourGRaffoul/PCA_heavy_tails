@@ -4,13 +4,16 @@ A comparative analysis of Robust PCA techniques against heavy-tailed distributio
 
 ## Project Structure
 
+* `rpca_tests.py`: Main file for running tests. Run this one.
+* 
 * `PCA_functions_generation.py`: Module for generating synthetic heavy-tailed data (Sub-Gaussian, Student-t, Pareto), fetching real financial data from `real_stock1.csv` or 'real_stock2.csv`, and fetching real image data from sklearn datasets.
 * `PCA_functions_component.py`: Helpful functions to fetch ground truth vectors and calculate angle errors
 * `PCA_functions_plotting.py`: Helpful plotting functions
+  
 * `image_test.py`: Contains the main function to do image tests.
 * `PCA_classes.py`: Implementations of dimensionality reduction techniques (PCP, L1-PCA, Bayesian PCA).
+  
 * `parser.py`: Parser file.
-* `rpca_tests.py`: MAIN FILE FOR RUNNING TESTS. RUN THIS ONE.
 * `requirements.txt`: List of dependencies.
 
 ## Installation
