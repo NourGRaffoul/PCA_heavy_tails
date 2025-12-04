@@ -36,7 +36,7 @@ A comparative analysis of Robust PCA techniques against heavy-tailed distributio
 Some examples:
 
 ```bash
-python rpca_tests.py --covariance 1 0.3 0.3 4
+python rpca_tests.py --covariance 1 0.3 0.3 4 --plot True
 ```
 ```bash
 python rpca_tests.py --mode student_t --dim 10 --n_samples 5000 --alphas 1.1 1.3 1.6 1.8
